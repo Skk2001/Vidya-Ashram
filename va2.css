@@ -28,7 +28,7 @@ body{
 }
 #navbar ul li a{
     padding: 15px;
-    color: white;
+    color: rgb(235, 14, 14);
     text-decoration: none;
     display: block;
     border-radius: 10px;
@@ -57,33 +57,33 @@ body{
 #home::before{
     content: "";
     position: absolute;
-    height: 100%;
+    height: 65%;
     width: 100%;
-    background: url('uu.jpg') no-repeat center center/cover;
+    /* background: url('uu.jpg') no-repeat center center/cover; */
     z-index: -1;
     opacity: 1;
 
 }
 #home h1{
-    color:#ff1414;
+    color:white;
     text-align: center;
     font-family: 'Oleo Script', cursive;
     /* color: #1ded97; */
 }
 #home p{
     color: #e529ce;
-    text-align: center;
-    font-size: 1.1rem;
+    /* text-align: center; */
+    font-size: 2rem;
     font-family: 'Lobster', cursive;
     font-weight: bold;
-    padding: 0px 370px;
+    /* padding: 0px 370px;*/
 }
 .h-primary{
     font-size: 3.3rem;
     padding: 12px;
     font-family: 'Lobster', cursive;
     color: white;
-    text-shadow: -9px 3px 1px #31ce14;
+    /* text-shadow: -9px 3px 1px #31ce14; */
 }
 .h-secondary{
     font-size: 2.3rem;
@@ -108,7 +108,7 @@ body{
 }
 .service h1{
     font-size: 3.3rem;
-    padding: 15px;
+    padding: 0px;
     margin: 179px;
     text-align: center;
 
@@ -121,8 +121,10 @@ body{
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit,minmax(285px,1fr));
-    padding: 0px 66px;
-    margin: -149px 5px;
+    padding: -1px 45px;
+    margin: -151px 21px;
+    align-items: center;
+    justify-content: center;
     /* transition-duration: 2s;
     transition-delay: 1s;
     transition-timing-function: ease-in-out; */
